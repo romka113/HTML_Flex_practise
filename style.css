@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    height: 98vh;
+    width: 99vw;
+    margin: 1vh;
+    background-color: rgba(6,4,10,0.88);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+.wraper{
+    height: 80%;
+    width: 80%;
+    background-color: rgba(103,101,97,0.88);
+    display: flex;
+    /*flex-wrap: wrap;*/
+}
+aside a img{
+    width: 90%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+#img-small{
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+aside a{
+    height: 11%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+header{
+    width: 78%;
+    height: 5%;
+    background-color:rgba(6,4,10,0.88);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-content: center;
+    padding-top: .5rem;
+}
+.socialmedia{
+    height: 90%;
+    width: 15%;
+    background-color: #9da7ff;
+    display: flex;
+}
+.socialmedia a{
+    width: 50%;
+}
+.socialmedia a img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+
+}
+.flag{
+    height: 90%;
+    width: 25%;
+    background-color: #9da7ff;
+    display: flex;
+}
+.flag a{
+    width: 18%;
+}
+.flag a img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+.hosted{
+    height: 90%;
+    width: 15%;
+    background-color: #9da7ff;
+    position: relative;
+
+}
+.hosted a{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+.hosted a img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+aside{
+    height:100%;
+    width: 10%;
+    background-color: #ada899;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: column;
+    gap: 1%;
+}
+main{
+    width: 80%;
+    background-color: #ada899;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.window{
+    height: 20%;
+    width: 98%;
+    background-color: #ada899;
+    margin-top: .5rem;
+    border: 5px solid black;
+
+}
+.multi-window{
+    height: 55%;
+    width: 98%;
+    background-color: #9da7ff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.window-1{
+    height: 10%;
+    width: 98%;
+    background-color: #ada899;
+    border: 8px solid black;
+    display: flex;
+}
+.multiwindowleft{
+    height:100%;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ada899;
+    justify-content: center;
+    gap: 2%;
+    padding-top: .5rem;
+
+}
+.sound{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ada899;
+    justify-content: center;
+    align-items: center;
+}
+.sound a{
+    width: 33.3%;
+    height: 20%;
+}
+.sound a img{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+}
+.sound audio{
+    width: 100%;
+    height: 20%;
+    padding-bottom: 1rem;
+
+}
+#rockfm{
+    height: 40%;
+    width: 100%;
+}
+.multiwindowleft a{
+    height: 18%;
+    width: 45%;
+
+}
+.multiwindowleft a img{
+    width: 100%;
+    height:100%;
+    display: flex;
+}
+
+
+.main-bottom{
+    height: 12%;
+    width: 100%;
+    background-color: #ada899;
+    display: flex;
+    justify-content: space-between;
+
+}
+.main-bottom a img{
+    width: 90%;
+    height: 100%;
+}
+.main-bottom a{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+nav{
+    height: 5%;
+    width: 80%;
+    background-color: rgba(6,4,10,0.88);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    color: #cccccc;
+
+}
+.ads{
+    height: 10%;
+    width: 80%;
+    background-color: #949886;
+    padding: .2rem;
+
+}
+.ads a{
+    text-decoration: none;
+}
